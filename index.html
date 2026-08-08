@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Chiquinho Sorvetes Teresópolis — Atendente virtual com cardápio, preços e horários. Fale com nossa equipe pelo WhatsApp!">
+<meta name="theme-color" content="#0b5fa5">
+<title>Chiquinho Sorvetes Teresópolis — Atendente Virtual</title>
+<link rel="icon" type="image/png" href="/assets/favicon.png">
+<link rel="apple-touch-icon" href="/assets/icon-192.png">
+<style>
+  :root {
+    --blue: #0b5fa5;
+    --blue-2: #1279c9;
+    --blue-dark: #08497e;
+    --sky: #eef5fb;
+    --orange: #ff8c00;
+    --orange-2: #ffb347;
+    --green: #25d366;
+    --green-dark: #1eb457;
+    --ink: #1c2b3a;
+    --muted: #64788c;
+    --line: #dbe7f2;
+    --white: #ffffff;
+    --radius: 18px;
+    --shadow: 0 10px 30px rgba(11, 95, 165, .12);
+    --shadow-sm: 0 4px 14px rgba(11, 95, 165, .10);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: var(--sky);
+    color: var(--ink);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  a { color: inherit; text-decoration: none; }
+
+  /* ===== Topo (azul com logo) ===== */
+  header {
+    background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 45%, var(--blue-2) 100%);
+    color: #fff;
+    padding: 24px 16px 26px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at 12% 20%, rgba(255,255,255,.10), transparent 42%),
+      radial-gradient(circle at 88% 85%, rgba(255,179,71,.16), transparent 45%);
+    pointer-events: none;
+  }
+  .header-inner { position: relative; max-width: 640px; margin: 0 auto; }
+  .logo {
+    height: 66px;
+    width: auto;
+    max-width: 86%;
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, .22));
+  }
+  .badges { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 14px; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(255, 255, 255, .16);
+    border: 1px solid rgba(255, 255, 255, .30);
+    color: #fff;
+    font-size: 12px; font-weight: 600;
+    padding: 5px 13px;
+    border-radius: 999px;
+    backdrop-filter: blur(4px);
+  }
+  .badge svg { width: 13px; height: 13px; flex: none; }
+
+  /* ===== Conteúdo ===== */
+  main { flex: 1; width: 100%; max-width: 640px; margin: 0 auto; padding: 16px 14px 96px; }
+  .card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  .chat-head {
+    display: flex; align-items: center; gap: 11px;
+    padding: 13px 16px;
+    background: linear-gradient(90deg, var(--blue), var(--blue-2));
+    color: #fff;
+  }
+  .chat-avatar {
+    width: 38px; height: 38px; flex: none;
+    background: var(--orange);
+    border-radius: 50%;
+    display: grid; place-items: center;
+    font-size: 19px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.22);
+  }
+  .chat-head .t1 { font-size: 14.5px; font-weight: 700; }
+  .chat-head .t2 { font-size: 12px; opacity: .92; display: flex; align-items: center; gap: 5px; }
+  .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #5ef39a; display: inline-block;
+    animation: pulse 1.8s infinite;
+  }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .45; } }
+
+  #chat {
+    height: min(52vh, 420px);
+    overflow-y: auto;
+    padding: 16px;
+    background:
+      linear-gradient(180deg, rgba(11,95,165,.035), transparent 90px),
+      var(--white);
+  }
+  #chat::-webkit-scrollbar { width: 8px; }
+  #chat::-webkit-scrollbar-thumb { background: #c6d8e8; border-radius: 8px; }
+  .msg { margin-bottom: 12px; display: flex; animation: rise .22s ease; }
+  @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  .msg .bubble {
+    max-width: 84%;
+    padding: 10px 14px;
+    border-radius: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .user { justify-content: flex-end; }
+  .user .bubble {
+    background: var(--blue);
+    color: #fff;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 3px 10px rgba(11, 95, 165, .25);
+  }
+  .bot { justify-content: flex-start; }
+  .bot .bubble {
+    background: #eef4fa;
+    border-bottom-left-radius: 5px;
+  }
+  .typing { font-style: italic; color: #8aa0b5; font-size: 13px; }
+
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; padding: 12px 14px 4px; }
+  .chip {
+    background: #fff;
+    border: 1.5px solid var(--blue);
+    color: var(--blue);
+    border-radius: 999px;
+    padding: 7px 14px;
+    font-size: 12.5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .15s ease;
+  }
+  .chip:hover { background: var(--blue); color: #fff; transform: translateY(-1px); }
+  form { display: flex; gap: 8px; padding: 10px 14px 14px; }
+  input {
+    flex: 1;
+    padding: 13px 16px;
+    border: 1.5px solid var(--line);
+    border-radius: 999px;
+    font-size: 15px;
+    outline: none;
+    background: #f7fafd;
+    transition: border-color .15s ease, box-shadow .15s ease;
+  }
+  input:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(11,95,165,.13); background: #fff; }
+  input::placeholder { color: #9db0c1; }
+  .send {
+    background: var(--blue);
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    min-width: 76px;
+    padding: 0 18px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background .15s ease, transform .1s ease;
+  }
+  .send:hover { background: var(--blue-2); }
+  .send:active { transform: scale(.96); }
+
+  /* ===== Contato com a equipe ===== */
+  .contact-bar { display: flex; gap: 10px; margin-top: 14px; }
+  .btn {
+    flex: 1;
+    display: inline-flex; align-items: center; justify-content: center; gap: 9px;
+    border-radius: 14px;
+    padding: 13px 12px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: transform .12s ease, box-shadow .15s ease;
+    box-shadow: var(--shadow-sm);
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn:active { transform: scale(.97); }
+  .btn svg { width: 19px; height: 19px; flex: none; }
+  .btn-wa { background: linear-gradient(135deg, var(--green), var(--green-dark)); }
+  .btn-wa:hover { box-shadow: 0 8px 20px rgba(37, 211, 102, .4); }
+  .btn-call { background: linear-gradient(135deg, var(--orange), var(--orange-2)); color: #4a2a00; }
+  .btn-call:hover { box-shadow: 0 8px 20px rgba(255, 140, 0, .38); }
+  .btn-note { text-align: center; font-size: 12px; color: var(--muted); margin-top: 8px; }
+
+  /* ===== Rodapé ===== */
+  footer {
+    background: var(--blue-dark);
+    color: rgba(255, 255, 255, .90);
+    padding: 22px 16px 92px;
+    text-align: center;
+    font-size: 13px;
+  }
+  .footer-name { font-weight: 800; font-size: 15px; margin-bottom: 8px; }
+  .footer-row { margin-bottom: 6px; font-size: 12.5px; }
+  .footer-row span { display: inline-flex; align-items: center; gap: 5px; margin: 0 7px; }
+  .footer-note { opacity: .66; font-size: 11.5px; margin-top: 8px; }
+
+  /* ===== Botão flutuante WhatsApp ===== */
+  .fab {
+    position: fixed;
+    right: 16px;
+    bottom: 18px;
+    width: 58px; height: 58px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--green), var(--green-dark));
+    color: #fff;
+    display: grid; place-items: center;
+    box-shadow: 0 8px 24px rgba(37, 211, 102, .45);
+    z-index: 50;
+    transition: transform .15s ease;
+  }
+  .fab:hover { transform: scale(1.08); }
+  .fab svg { width: 30px; height: 30px; }
+  .fab::before {
+    content: "";
+    position: absolute; inset: -5px;
+    border-radius: 50%;
+    border: 2px solid rgba(37, 211, 102, .5);
+    animation: ring 2.2s infinite;
+  }
+  @keyframes ring { 0% { transform: scale(.9); opacity: 1; } 100% { transform: scale(1.25); opacity: 0; } }
+
+  @media (min-width: 560px) {
+    .logo { height: 78px; }
+    main { padding-bottom: 110px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <img class="logo" src="/assets/logo-horizontal.png" alt="Chiquinho Sorvetes" width="600" height="107">
+    <div class="badges">
+      <span class="badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4-.1.6.4s.8 2 1 2.3c.1.2.1.4 0 .6-.1.2-.1.4-.3.6l-.4.5c-.2.2-.3.4-.1.7.2.3.9 1.5 2 2.4 1.4 1.2 2.5 1.6 2.9 1.8.3.2.5.1.7-.1l1.1-1.2c.2-.3.4-.2.7-.1l2.1 1c.3.2.5.3.6.4.1.2.1.9-.1 1.3z"/></svg> (21) 99032-3063</span>
+      <span class="badge"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 10.6-3 1.8a.5.5 0 0 1-.8-.4V8.9a.5.5 0 0 1 .8-.4l3 1.8a.5.5 0 0 1 0 .9z"/></svg> Todos os dias, 10:30–21:00</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="card">
+    <div class="chat-head">
+      <div class="chat-avatar">🍦</div>
+      <div>
+        <div class="t1">Chiquinho Sorvetes — Teresópolis</div>
+        <div class="t2"><span class="dot"></span> Atendente virtual online</div>
+      </div>
+    </div>
+    <div id="chat">
+      <div class="msg bot"><div class="bubble">Oi! 👋 Bem-vindo à Chiquinho Sorvetes de Teresópolis! 🍦 Aqui você pergunta o cardápio, preços e horário. Como posso te ajudar?</div></div>
+    </div>
+    <div class="chips" id="chips">
+      <button class="chip">Qual o horário de vocês?</button>
+      <button class="chip">Quanto custa o açaí?</button>
+      <button class="chip">Tem milk shake de Nutella?</button>
+      <button class="chip">O que tem de casquinha?</button>
+    </div>
+    <form id="form">
+      <input id="input" placeholder="Ex: Quanto custa o Bubble Waffle?" autocomplete="off" autofocus>
+      <button class="send" type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <div class="contact-bar">
+    <a class="btn btn-wa" id="btnWa" href="#" target="_blank" rel="noopener" aria-label="Falar com a equipe no WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4-.1.6.4s.8 2 1 2.3c.1.2.1.4 0 .6-.1.2-.1.4-.3.6l-.4.5c-.2.2-.3.4-.1.7.2.3.9 1.5 2 2.4 1.4 1.2 2.5 1.6 2.9 1.8.3.2.5.1.7-.1l1.1-1.2c.2-.3.4-.2.7-.1l2.1 1c.3.2.5.3.6.4.1.2.1.9-.1 1.3z"/></svg>
+      Falar com a equipe
+    </a>
+    <a class="btn btn-call" href="tel:+5521990323063" aria-label="Ligar para a loja">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"/></svg>
+      Ligar agora
+    </a>
+  </div>
+  <p class="btn-note">Prefere conversar com gente de verdade? Chama a equipe no WhatsApp! 💬</p>
+</main>
+
+<footer>
+  <div class="footer-name">Chiquinho Sorvetes — Teresópolis</div>
+  <div class="footer-row">
+    <span>📍 Teresópolis — RJ</span>
+    <span>🕙 Todos os dias, 10:30 às 21:00</span>
+  </div>
+  <div class="footer-row"><span>💬 WhatsApp: (21) 99032-3063</span></div>
+  <p class="footer-note">© Chiquinho Sorvetes Teresópolis • Atendente com IA • Cardápio oficial da franquia (792 itens)</p>
+</footer>
+
+<a class="fab" id="fabWa" href="#" target="_blank" rel="noopener" aria-label="WhatsApp da equipe">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4-.1.6.4s.8 2 1 2.3c.1.2.1.4 0 .6-.1.2-.1.4-.3.6l-.4.5c-.2.2-.3.4-.1.7.2.3.9 1.5 2 2.4 1.4 1.2 2.5 1.6 2.9 1.8.3.2.5.1.7-.1l1.1-1.2c.2-.3.4-.2.7-.1l2.1 1c.3.2.5.3.6.4.1.2.1.9-.1 1.3z"/></svg>
+</a>
+
+<script>
+const CHAT = document.getElementById('chat');
+const FORM = document.getElementById('form');
+const INPUT = document.getElementById('input');
+const HISTORY = [];
+const WA_NUMBER = '5521990323063';
+const WA_LINK = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent('Olá! Vim pelo site da Chiquinho Sorvetes Teresópolis e quero falar com a equipe. 😊');
+
+document.getElementById('btnWa').href = WA_LINK;
+document.getElementById('fabWa').href = WA_LINK;
+
+function add(role, text) {
+  const div = document.createElement('div');
+  div.className = 'msg ' + role;
+  const b = document.createElement('div');
+  b.className = 'bubble';
+  b.textContent = text;
+  div.appendChild(b);
+  CHAT.appendChild(div);
+  CHAT.scrollTop = CHAT.scrollHeight;
+}
+
+document.getElementById('chips').addEventListener('click', (e) => {
+  if (e.target.classList.contains('chip')) {
+    INPUT.value = e.target.textContent;
+    FORM.requestSubmit();
+  }
+});
+
+FORM.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const text = INPUT.value.trim();
+  if (!text) return;
+  INPUT.value = '';
+  add('user', text);
+  HISTORY.push({ role: 'user', content: text });
+  const typing = document.createElement('div');
+  typing.className = 'msg bot typing';
+  typing.textContent = 'Atendente está digitando';
+  CHAT.appendChild(typing);
+  CHAT.scrollTop = CHAT.scrollHeight;
+  try {
+    const res = await fetch('/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ history: HISTORY }),
+    });
+    const data = await res.json();
+    typing.remove();
+    const reply = data.reply || '(sem resposta)';
+    add('bot', reply);
+    HISTORY.push({ role: 'assistant', content: reply });
+  } catch (err) {
+    typing.remove();
+    add('bot', 'Ops, deu um problema na conexão. Tente de novo ou chame a equipe no WhatsApp. 🙈');
+  }
+});
+</script>
+</body>
+</html>

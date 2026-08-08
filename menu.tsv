@@ -1,0 +1,793 @@
+NOME	GRUPO	PDV	DISPONIVEL
+Café Shake com Doce de Leite	Milk Shake 300ml	24.00	S
+Café Shake com NUTELLA®	Milk Shake 300ml	28.00	S
+Café Shake Tradicional	Milk Shake 300ml	21.00	S
+Açaí Monte o Seu 300 ml	Açai	23.00	S
+Açaí Monte o Seu 400 ml	Açai	26.00	S
+Açaí Monte o Seu 500 ml	Açai	29.00	S
+Affogato c/ Sorvete Baunilha	Cafeteria	19.00	S
+Affogato c/ Sorvete Chocolate	Cafeteria	19.00	S
+Affogato c/ Sorvete Misto	Cafeteria	19.00	S
+Água 500 ml C /Gás	Agua Mineral	6.00	S
+Água 500 ml S/ Gás	Agua Mineral	4.00	S
+Água Copo 200 ml	Agua Mineral	0.00	N
+Água Copo 300 ml	Agua Mineral	0.00	N
+Água Crystal Capim Limão 510ml	Refrigerante	0.00	N
+Água Crystal Frutas Vermelhas 510ml	Refrigerante	0.00	N
+Água Crystal Limão 510ml	Refrigerante	0.00	N
+Água Kaiary 498 ml	Agua Mineral	0.00	N
+Água Kaiary c/ Gás 350ml	Agua Mineral	0.00	N
+Água Mineral 350 ml	Agua Mineral	0.00	N
+Água Mineral 350 ml com Gás	Agua Mineral	0.00	N
+Água Mineral c/ Gás São Lourenço 500ml	Agua Mineral	0.00	N
+Água Tônica 350 ml	Agua Mineral	0.00	N
+Big Sundae Baunilha Cobertura Caramelo	Big Sundae	15.50	S
+Big Sundae Baunilha Cobertura Chocolate	Big Sundae	15.50	S
+Big Sundae Baunilha Cobertura Morango	Big Sundae	15.50	S
+Big Sundae Chocolate Cobertura Caramelo	Big Sundae	15.50	S
+Big Sundae Chocolate Cobertura Chocolate	Big Sundae	15.50	S
+Big Sundae Chocolate Cobertura Morango	Big Sundae	15.50	S
+Big Sundae Chocotino Turbo - Baunilha	Big Sundae	25.00	S
+Big Sundae Chocotino Turbo - Chocolate	Big Sundae	25.00	S
+Big Sundae Chocotino Turbo - Misto	Big Sundae	25.00	S
+Big Sundae Misto Cobertura Caramelo	Big Sundae	15.50	S
+Big Sundae Misto Cobertura Chocolate	Big Sundae	15.50	S
+Big Sundae Misto Cobertura Morango	Big Sundae	15.50	S
+Bubble Waffle no Cone G - c/ Chantilly	Bubble Waffle	0.00	N
+Bubble Waffle no Cone G - c/ Sorvete Baunilha	Bubble Waffle	0.00	N
+Bubble Waffle no Cone G - c/ Sorvete Chocolate	Bubble Waffle	0.00	N
+Bubble Waffle no Cone G - c/ Sorvete Misto	Bubble Waffle	0.00	N
+Bubble Waffle no Cone P - c/ Chantilly	Bubble Waffle	0.00	N
+Bubble Waffle no Cone P - c/ Sorvete Baunilha	Bubble Waffle	0.00	N
+Bubble Waffle no Cone P - c/ Sorvete Chocolate	Bubble Waffle	0.00	N
+Bubble Waffle no Cone P - c/ Sorvete Misto	Bubble Waffle	0.00	N
+Café Espresso	Cafeteria	9.00	S
+Café Espresso Com Chantilly	Cafeteria	12.00	S
+Café Shake Pé de Moleque	Milk Shake 300ml	24.00	S
+Café Shake Trufado	Milk Shake 300ml	26.00	S
+Canecake 2026 - Baunilha - Inverno	Inverno	35.00	S
+Canecake 2026 - Baunilha - Inverno - Floresta Negra	Inverno	45.00	S
+Canecake 2026 - Baunilha - Inverno - Merengue Limão	Inverno	45.00	S
+Canecake 2026 - Baunilha - Inverno - Merengue Morango	Inverno	45.00	S
+Canecake 2026 - Baunilha - Inverno - S'mores	Inverno	45.00	S
+Canecake 2026 - Baunilha - Inverno - Torta de Morango	Inverno	45.00	S
+Canecake 2026 - Baunilha - Outono	Inverno	35.00	S
+Canecake 2026 - Baunilha - Outono - Floresta Negra	Inverno	45.00	S
+Canecake 2026 - Baunilha - Outono - Merengue Limão	Inverno	45.00	S
+Canecake 2026 - Baunilha - Outono - Merengue Morango	Inverno	45.00	S
+Canecake 2026 - Baunilha - Outono - S'mores	Inverno	45.00	S
+Canecake 2026 - Baunilha - Outono - Torta de Morango	Inverno	45.00	S
+Canecake 2026 - Baunilha - Primavera	Inverno	35.00	S
+Canecake 2026 - Baunilha - Primavera - Floresta Negra	Inverno	45.00	S
+Canecake 2026 - Baunilha - Primavera - Merengue Limão	Inverno	45.00	S
+Canecake 2026 - Baunilha - Primavera - Merengue Morango	Inverno	45.00	S
+Canecake 2026 - Baunilha - Primavera - S'mores	Inverno	45.00	S
+Canecake 2026 - Baunilha - Primavera - Torta de Morango	Inverno	45.00	S
+Canecake 2026 - Baunilha - Verão	Inverno	35.00	S
+Canecake 2026 - Baunilha - Verão - Floresta Negra	Inverno	45.00	S
+Canecake 2026 - Baunilha - Verão - Merengue Limão	Inverno	45.00	S
+Canecake 2026 - Baunilha - Verão - Merengue Morango	Inverno	45.00	S
+Canecake 2026 - Baunilha - Verão - S'mores	Inverno	45.00	S
+Canecake 2026 - Baunilha - Verão - Torta de Morango	Inverno	45.00	S
+Canecake 2026 - Chantilly - Inverno	Inverno	35.00	S
+Canecake 2026 - Chantilly - Outono	Inverno	35.00	S
+Canecake 2026 - Chantilly - Primavera	Inverno	35.00	S
+Canecake 2026 - Chantilly - Verão	Inverno	35.00	S
+Canecake 2026 - Chocolate - Inverno	Inverno	35.00	S
+Canecake 2026 - Chocolate - Inverno - Floresta Negra	Inverno	45.00	S
+Canecake 2026 - Chocolate - Inverno - Merengue Limão	Inverno	45.00	S
+Canecake 2026 - Chocolate - Inverno - Merengue Morango	Inverno	45.00	S
+Canecake 2026 - Chocolate - Inverno - S'mores	Inverno	45.00	S
+Canecake 2026 - Chocolate - Inverno - Torta de Morango	Inverno	45.00	S
+Canecake 2026 - Chocolate - Outono	Inverno	35.00	S
+Canecake 2026 - Chocolate - Outono - Floresta Negra	Inverno	45.00	S
+Canecake 2026 - Chocolate - Outono - Merengue Limão	Inverno	45.00	S
+Canecake 2026 - Chocolate - Outono - Merengue Morango	Inverno	45.00	S
+Canecake 2026 - Chocolate - Outono - S'mores	Inverno	45.00	S
+Canecake 2026 - Chocolate - Outono - Torta de Morango	Inverno	45.00	S
+Canecake 2026 - Chocolate - Primavera	Inverno	35.00	S
+Canecake 2026 - Chocolate - Primavera - Floresta Negra	Inverno	45.00	S
+Canecake 2026 - Chocolate - Primavera - Merengue Limão	Inverno	45.00	S
+Canecake 2026 - Chocolate - Primavera - Merengue Morango	Inverno	45.00	S
+Canecake 2026 - Chocolate - Primavera - S'mores	Inverno	45.00	S
+Canecake 2026 - Chocolate - Primavera - Torta de Morango	Inverno	45.00	S
+Canecake 2026 - Chocolate - Verão	Inverno	35.00	S
+Canecake 2026 - Chocolate - Verão - Floresta Negra	Inverno	45.00	S
+Canecake 2026 - Chocolate - Verão - Merengue Limão	Inverno	45.00	S
+Canecake 2026 - Chocolate - Verão - Merengue Morango	Inverno	45.00	S
+Canecake 2026 - Chocolate - Verão - S'mores	Inverno	45.00	S
+Canecake 2026 - Chocolate - Verão - Torta de Morango	Inverno	45.00	S
+Canecake 2026 - Misto - Inverno	Inverno	35.00	S
+Canecake 2026 - Misto - Inverno - Floresta Negra	Inverno	45.00	S
+Canecake 2026 - Misto - Inverno - Merengue Limão	Inverno	45.00	S
+Canecake 2026 - Misto - Inverno - Merengue Morango	Inverno	45.00	S
+Canecake 2026 - Misto - Inverno - S'mores	Inverno	45.00	S
+Canecake 2026 - Misto - Inverno - Torta de Morango	Inverno	45.00	S
+Canecake 2026 - Misto - Outono	Inverno	35.00	S
+Canecake 2026 - Misto - Outono - Floresta Negra	Inverno	45.00	S
+Canecake 2026 - Misto - Outono - Merengue Limão	Inverno	45.00	S
+Canecake 2026 - Misto - Outono - Merengue Morango	Inverno	45.00	S
+Canecake 2026 - Misto - Outono - S'mores	Inverno	45.00	S
+Canecake 2026 - Misto - Outono - Torta de Morango	Inverno	45.00	S
+Canecake 2026 - Misto - Primavera	Inverno	35.00	S
+Canecake 2026 - Misto - Primavera - Floresta Negra	Inverno	45.00	S
+Canecake 2026 - Misto - Primavera - Merengue Limão	Inverno	45.00	S
+Canecake 2026 - Misto - Primavera - Merengue Morango	Inverno	45.00	S
+Canecake 2026 - Misto - Primavera - S'mores	Inverno	45.00	S
+Canecake 2026 - Misto - Primavera - Torta de Morango	Inverno	45.00	S
+Canecake 2026 - Misto - Verão	Inverno	35.00	S
+Canecake 2026 - Misto - Verão - Floresta Negra	Inverno	45.00	S
+Canecake 2026 - Misto - Verão - Merengue Limão	Inverno	45.00	S
+Canecake 2026 - Misto - Verão - Merengue Morango	Inverno	45.00	S
+Canecake 2026 - Misto - Verão - S'mores	Inverno	45.00	S
+Canecake 2026 - Misto - Verão - Torta de Morango	Inverno	45.00	S
+Cappuccino feito com Suflair® Frio	Cafeteria	19.00	S
+Cappuccino feito com Suflair® Quente	Cafeteria	19.00	S
+Cappuccino Tradicional - Frio	Inverno	19.00	S
+Cappuccino Tradicional - Quente	Inverno	19.00	S
+Cascão Baunilha Coberto com Calda Quente	Cascao	15.00	S
+Cascão Chocolate Coberto com Calda Quente	Cascao	15.00	S
+Cascão Kitkat® - Baunilha	Cascao	22.00	S
+Cascão Kitkat® - Chocolate	Cascao	22.00	S
+Cascão Kitkat® - Misto	Cascao	22.00	S
+Cascão Misto Coberto com Calda Quente	Cascao	15.00	S
+Cascão Recheado Baunilha Cobertura Caramelo	Cascao	13.00	S
+Cascão Recheado Baunilha Cobertura Chocolate	Cascao	13.00	S
+Cascão Recheado Baunilha Cobertura Morango	Cascao	13.00	S
+Cascão Recheado Chocolate Cobertura Caramelo	Cascao	13.00	S
+Cascão Recheado Chocolate Cobertura Chocolate	Cascao	13.00	S
+Cascão Recheado Chocolate Cobertura Morango	Cascao	13.00	S
+Cascão Recheado Misto Cobertura Caramelo	Cascao	13.00	S
+Cascão Recheado Misto Cobertura Chocolate	Cascao	13.00	S
+Cascão Recheado Misto Cobertura Morango	Cascao	13.00	S
+Cascão Tradicional Baunilha Cobertura Caramelo	Cascao	9.00	S
+Cascão Tradicional Baunilha Cobertura Chocolate	Cascao	9.00	S
+Cascão Tradicional Baunilha Cobertura Morango	Cascao	9.00	S
+Cascão Tradicional Chocolate Cobertura Caramelo	Cascao	9.00	S
+Cascão Tradicional Chocolate Cobertura Chocolate	Cascao	9.00	S
+Cascão Tradicional Chocolate Cobertura Morango	Cascao	9.00	S
+Cascão Tradicional Misto Cobertura Caramelo	Cascao	9.00	S
+Cascão Tradicional Misto Cobertura Chocolate	Cascao	9.00	S
+Cascão Tradicional Misto Cobertura Morango	Cascao	9.00	S
+Cascão Trufado c/ Nutella® e Banana - Baunilha	Cascao	18.00	S
+Cascão Trufado c/ Nutella® e Banana - Chocolate	Cascao	18.00	S
+Cascão Trufado c/ Nutella® e Banana - Misto	Cascao	18.00	S
+Cascão Trufado c/ Nutella® e Morango - Baunilha	Cascao	23.00	S
+Cascão Trufado c/ Nutella® e Morango - Chocolate	Cascao	23.00	S
+Cascão Trufado c/ Nutella® e Morango - Misto	Cascao	23.00	S
+Cascão Trufado c/ Pistache - Baunilha	Cascao	20.00	S
+Cascão Trufado c/ Pistache - Chocolate	Cascao	20.00	S
+Cascão Trufado c/ Pistache - Misto	Cascao	20.00	S
+Cascão Trufado com Doce de Leite Amendoim Baunilha	Cascao	15.00	S
+Cascão Trufado com Doce de Leite Amendoim Chocolate	Cascao	15.00	S
+Cascão Trufado com Doce de Leite Amendoim Misto	Cascao	15.00	S
+Cascão Trufado com Doce de Leite Brigadeiro Baunilha	Cascao	15.00	S
+Cascão Trufado com Doce de Leite Brigadeiro Chocolate	Cascao	15.00	S
+Cascão Trufado com Doce de Leite Brigadeiro Misto	Cascao	15.00	S
+Cascão Trufado com Doce de Leite Tradicional Baunilha	Cascao	15.00	S
+Cascão Trufado com Doce de Leite Tradicional Baunilha - Promo Cas	Cascao	0.00	N
+Cascão Trufado com Doce de Leite Tradicional Chocolate	Cascao	15.00	S
+Cascão Trufado com Doce de Leite Tradicional Chocolate - Promo Cas	Cascao	0.00	N
+Cascão Trufado com Doce de Leite Tradicional Misto	Cascao	15.00	S
+Cascão Trufado com Doce de Leite Tradicional Misto - Promo Cas	Cascao	0.00	N
+Cascão Trufado com Nutella® Amendoim Baunilha	Cascao	15.00	S
+Cascão Trufado com Nutella® Amendoim Chocolate	Cascao	15.00	S
+Cascão Trufado com Nutella® Amendoim Misto	Cascao	15.00	S
+Cascão Trufado com Nutella® Brigadeiro Baunilha	Cascao	15.00	S
+Cascão Trufado com Nutella® Brigadeiro Chocolate	Cascao	15.00	S
+Cascão Trufado com Nutella® Brigadeiro Misto	Cascao	15.00	S
+Cascão Trufado com Nutella® Tradicional Baunilha	Cascao	15.00	S
+Cascão Trufado com Nutella® Tradicional Chocolate	Cascao	15.00	S
+Cascão Trufado com Nutella® Tradicional Misto	Cascao	15.00	S
+Cascão Trufado Ovomaltine Baunilha	Cascao	15.00	S
+Cascão Trufado Ovomaltine Chocolate	Cascao	15.00	S
+Cascão Trufado Ovomaltine Misto	Cascao	15.00	S
+Cascão Trufado Tradicional Amendoim Baunilha	Cascao	15.00	S
+Cascão Trufado Tradicional Amendoim Chocolate	Cascao	15.00	S
+Cascão Trufado Tradicional Amendoim Misto	Cascao	15.00	S
+Cascão Trufado Tradicional Baunilha	Cascao	15.00	S
+Cascão Trufado Tradicional Baunilha - Promo Cas	Cascao	0.00	N
+Cascão Trufado Tradicional Brigadeiro Baunilha	Cascao	15.00	S
+Cascão Trufado Tradicional Brigadeiro Chocolate	Cascao	15.00	S
+Cascão Trufado Tradicional Brigadeiro Misto	Cascao	15.00	S
+Cascão Trufado Tradicional Chocolate	Cascao	15.00	S
+Cascão Trufado Tradicional Chocolate - Promo Cas	Cascao	0.00	N
+Cascão Trufado Tradicional Misto	Cascao	15.00	S
+Cascão Trufado Tradicional Misto - Promo Cas	Cascao	0.00	N
+Casquinha Baunilha Coberta com Calda Quente	Casquinha	11.00	S
+Casquinha Chocolate Coberta com Calda Quente	Casquinha	11.00	S
+Casquinha Misto Coberta com Calda Quente	Casquinha	11.00	S
+Casquinha Recheada Baunilha	Casquinha	10.00	S
+Casquinha Recheada Chocolate	Casquinha	10.00	S
+Casquinha Recheada Misto	Casquinha	10.00	S
+Casquinha Tradicional Baunilha	Casquinha	6.00	S
+Casquinha Tradicional Chocolate	Casquinha	6.00	S
+Casquinha Tradicional Misto	Casquinha	6.00	S
+Casquinha Trufada Amendoim Baunilha	Casquinha	12.00	S
+Casquinha Trufada Amendoim Chocolate	Casquinha	12.00	S
+Casquinha Trufada Amendoim Misto	Casquinha	12.00	S
+Casquinha Trufada Brigadeiro Baunilha	Casquinha	12.00	S
+Casquinha Trufada Brigadeiro Chocolate	Casquinha	12.00	S
+Casquinha Trufada Brigadeiro Misto	Casquinha	12.00	S
+Casquinha Trufada c/ Pistache - Baunilha	Casquinha	18.00	S
+Casquinha Trufada c/ Pistache - Chocolate	Casquinha	18.00	S
+Casquinha Trufada c/ Pistache - Misto	Casquinha	18.00	S
+Casquinha Trufada com Doce de Leite Amendoim Baunilha	Casquinha	12.00	S
+Casquinha Trufada com Doce de Leite Amendoim Chocolate	Casquinha	12.00	S
+Casquinha Trufada com Doce de Leite Amendoim Misto	Casquinha	12.00	S
+Casquinha Trufada com Doce de Leite Brigadeiro Baunilha	Casquinha	12.00	S
+Casquinha Trufada com Doce de Leite Brigadeiro Chocolate	Casquinha	12.00	S
+Casquinha Trufada com Doce de Leite Brigadeiro Misto	Casquinha	12.00	S
+Casquinha Trufada com Doce de Leite Tradicional Baunilha	Casquinha	12.00	S
+Casquinha Trufada com Doce de Leite Tradicional Chocolate	Casquinha	12.00	S
+Casquinha Trufada com Doce de Leite Tradicional Misto	Casquinha	12.00	S
+Casquinha Trufada com Nutella® Amendoim Baunilha	Casquinha	12.00	S
+Casquinha Trufada com Nutella® Amendoim Chocolate	Casquinha	12.00	S
+Casquinha Trufada com Nutella® Amendoim Misto	Casquinha	12.00	S
+Casquinha Trufada com Nutella® Brigadeiro Baunilha	Casquinha	12.00	S
+Casquinha Trufada com Nutella® Brigadeiro Chocolate	Casquinha	12.00	S
+Casquinha Trufada com Nutella® Brigadeiro Misto	Casquinha	12.00	S
+Casquinha Trufada com Nutella® Tradicional Baunilha	Casquinha	12.00	S
+Casquinha Trufada com Nutella® Tradicional Chocolate	Casquinha	12.00	S
+Casquinha Trufada com Nutella® Tradicional Misto	Casquinha	12.00	S
+Casquinha Trufada Ovomaltine Baunilha	Casquinha	12.00	S
+Casquinha Trufada Ovomaltine Chocolate	Casquinha	12.00	S
+Casquinha Trufada Ovomaltine Misto	Casquinha	12.00	S
+Casquinha Trufada Tradicional Baunilha	Casquinha	12.00	S
+Casquinha Trufada Tradicional Chocolate	Casquinha	12.00	S
+Casquinha Trufada Tradicional Misto	Casquinha	12.00	S
+Chiquinho no Pote Baunilha	Chiquinho no Pote	38.00	S
+Chiquinho no Pote Chocolate	Chiquinho no Pote	38.00	S
+Chiquinho no Pote Chocolate Intenso	Chiquinho no Pote	45.00	S
+Chiquinho no Pote Doce de Leite	Chiquinho no Pote	45.00	S
+Chiquinho no Pote Flocos	Chiquinho no Pote	38.00	S
+Chiquinho no Pote Frutas Vermelhas	Chiquinho no Pote	45.00	S
+Chiquinho no Pote Limão com Leite Moça®	Chiquinho no Pote	45.00	S
+Chiquinho no Pote Maracujá	Chiquinho no Pote	38.00	S
+Chiquinho no Pote Misto	Chiquinho no Pote	38.00	S
+Chiquinho no Pote Morango	Chiquinho no Pote	45.00	S
+Chiquinho no Pote Ninho com NUTELLA®	Chiquinho no Pote	45.00	S
+Chiquinho no Pote Ninho Trufado	Chiquinho no Pote	45.00	S
+Chocolate Frio c/ Sorvete Baunilha	Inverno	19.00	S
+Chocolate Frio c/ Sorvete Chocolate	Inverno	19.00	S
+Chocolate Frio c/ Sorvete Misto	Inverno	19.00	S
+Chocolate Frio Tradicional	Inverno	21.00	S
+Chocolate Quente c/ Sorvete Baunilha	Inverno	19.00	S
+Chocolate Quente c/ Sorvete Chocolate	Inverno	19.00	S
+Chocolate Quente c/ Sorvete Misto	Inverno	19.00	S
+Chocolate Quente Tradicional	Inverno	21.00	S
+Energético Monster	Cafeteria	0.00	N
+ENERGÉTICO MONSTER - 269 ML	Refrigerante	0.00	N
+ENERGÉTICO MONSTER - 473 ML	Refrigerante	0.00	N
+Fondue de Banana 200 ml (2026)	Inverno	20.00	S
+Fondue de Banana 300 ml (2026)	Inverno	30.00	S
+Fondue de Morango 200 ml (2026)	Inverno	30.00	S
+Fondue de Morango 300 ml (2026)	Inverno	40.00	S
+Fondue de Uva 200 ml (2026)	Inverno	20.00	S
+Fondue de Uva 300 ml (2026)	Inverno	30.00	S
+Gatorade Laranja 500 ml	Sucos	0.00	N
+Gatorade Morango 500 ml	Sucos	0.00	N
+Gatorade Uva 500 ml	Sucos	0.00	N
+Guaraná Antarctica Lata 310ml	Cafeteria	0.00	N
+Milk Shake 3 Leites 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake 3 Leites 400 ml	Milk Shake 400ml	0.00	N
+Milk Shake 3 Leites 500 ml	Milk Shake 500ml	0.00	N
+Milk Shake Açai 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Açai 400 ml	Milk Shake 400ml	22.00	S
+Milk Shake Açai 500 ml	Milk Shake 500ml	25.00	S
+Milk Shake Amarena & Calda Quente 300 ml	Milk Shake 300ml	26.00	S
+Milk Shake Amarena & Calda Quente 400 ml	Milk Shake 400ml	0.00	N
+Milk Shake Amarena & Calda Quente 500 ml	Milk Shake 500ml	0.00	N
+Milk Shake Baunilha 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Baunilha 300 ml - Promo Tra	Milk Shake 300ml	0.00	N
+Milk Shake Baunilha 400 ml	Milk Shake 400ml	21.00	S
+Milk Shake Baunilha 500 ml	Milk Shake 500ml	24.00	S
+Milk Shake Beijinho c/ Coco da Malásia 300 ml	Milk Shake 300ml	26.00	S
+Milk Shake Beijinho c/ Coco da Malásia 400 ml	Milk Shake 400ml	0.00	N
+Milk Shake Beijinho c/ Coco da Malásia 500 ml	Milk Shake 500ml	0.00	N
+Milk Shake Bombom de Morango 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Bombom de Morango 400 ml	Milk Shake 400ml	22.00	S
+Milk Shake Bombom de Morango 500 ml	Milk Shake 500ml	25.00	S
+Milk Shake Brigadeiro 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Brigadeiro 300 ml - Promo Tra	Milk Shake 300ml	0.00	N
+Milk Shake Brigadeiro 400 ml	Milk Shake 400ml	21.00	S
+Milk Shake Brigadeiro 500 ml	Milk Shake 500ml	24.00	S
+Milk Shake Cappuccino 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Cappuccino 300 ml - Promo Tra	Milk Shake 300ml	0.00	N
+Milk Shake Cappuccino 400 ml	Milk Shake 400ml	21.00	S
+Milk Shake Cappuccino 500 ml	Milk Shake 500ml	24.00	S
+Milk Shake Cappuccino Chocolate 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Cappuccino Chocolate 400 ml	Milk Shake 400ml	21.00	S
+Milk Shake Cappuccino Chocolate 500 ml	Milk Shake 500ml	24.00	S
+Milk Shake Chocolate 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Chocolate 300 ml - Promo Tra	Milk Shake 300ml	0.00	N
+Milk Shake Chocolate 400 ml	Milk Shake 400ml	21.00	S
+Milk Shake Chocolate 500 ml	Milk Shake 500ml	24.00	S
+Milk Shake Chocolate Branco 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Chocolate Branco 300 ml - Promo Tra	Milk Shake 300ml	0.00	N
+Milk Shake Chocolate Branco 400 ml	Milk Shake 400ml	21.00	S
+Milk Shake Chocolate Branco 500 ml	Milk Shake 500ml	24.00	S
+Milk Shake Chocomenta 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Chocomenta 300 ml - Promo Tra	Milk Shake 300ml	0.00	N
+Milk Shake Chocomenta 400 ml	Milk Shake 400ml	21.00	S
+Milk Shake Chocomenta 500 ml	Milk Shake 500ml	24.00	S
+Milk Shake Chocotino 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Chocotino 400 ml	Milk Shake 400ml	22.00	S
+Milk Shake Chocotino 500 ml	Milk Shake 500ml	25.00	S
+Milk Shake Chocotino Turbo 300 ml	Milk Shake 300ml	20.00	S
+Milk Shake Chocotino Turbo 400 ml	Milk Shake 400ml	0.00	N
+Milk Shake Chocotino Turbo 500 ml	Milk Shake 500ml	0.00	N
+Milk Shake Doce de Leite 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Doce de Leite 400 ml	Milk Shake 400ml	22.00	S
+Milk Shake Doce de Leite 500 ml	Milk Shake 500ml	25.00	S
+Milk Shake Duo Chocolate 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Duo Chocolate 400 ml	Milk Shake 400ml	22.00	S
+Milk Shake Duo Chocolate 500 ml	Milk Shake 500ml	25.00	S
+Milk Shake Farinha Láctea c/ Banana 300 ml - Promo Tra	Milk Shake 300ml	0.00	N
+Milk Shake Farinha Láctea®  e Banana 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Farinha Láctea®  e Banana 400 ml	Milk Shake 400ml	21.00	S
+Milk Shake Farinha Láctea®  e Banana 500 ml	Milk Shake 500ml	24.00	S
+Milk Shake Flocos 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Flocos 300 ml - Promo Tra	Milk Shake 300ml	0.00	N
+Milk Shake Flocos 400 ml	Milk Shake 400ml	21.00	S
+Milk Shake Flocos 500 ml	Milk Shake 500ml	24.00	S
+Milk Shake Frutas Vermelhas 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Frutas Vermelhas 400 ml	Milk Shake 400ml	22.00	S
+Milk Shake Frutas Vermelhas 500 ml	Milk Shake 500ml	25.00	S
+Milk Shake Limão com Leite Moça® 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Limão com Leite Moça® 400 ml	Milk Shake 400ml	22.00	S
+Milk Shake Limão com Leite Moça® 500 ml	Milk Shake 500ml	25.00	S
+Milk Shake Maracujá 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Maracujá 300 ml - Promo Tra	Milk Shake 300ml	0.00	N
+Milk Shake Maracujá 400 ml	Milk Shake 400ml	21.00	S
+Milk Shake Maracujá 500 ml	Milk Shake 500ml	25.00	S
+Milk Shake Morango 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Morango 300 ml - Promo Tra	Milk Shake 300ml	0.00	N
+Milk Shake Morango 400 ml	Milk Shake 400ml	21.00	S
+Milk Shake Morango 500 ml	Milk Shake 500ml	24.00	S
+Milk Shake Mousse de Chocolate 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Mousse de Chocolate 300 ml - Promo Tra	Milk Shake 300ml	0.00	N
+Milk Shake Mousse de Chocolate 400 ml	Milk Shake 400ml	21.00	S
+Milk Shake Mousse de Chocolate 500 ml	Milk Shake 500ml	24.00	S
+Milk Shake Mousse de Maracujá 300ml	Milk Shake 300ml	19.00	S
+Milk Shake Mousse de Maracujá 400ml	Milk Shake 400ml	22.00	S
+Milk Shake Mousse de Maracujá 500ml	Milk Shake 500ml	24.00	S
+Milk Shake Napolitano 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Napolitano 400 ml	Milk Shake 400ml	0.00	N
+Milk Shake Napolitano 500 ml	Milk Shake 500ml	0.00	N
+Milk Shake Ninho® 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Ninho® 400 ml	Milk Shake 400ml	22.00	S
+Milk Shake Ninho® 500 ml	Milk Shake 500ml	25.00	S
+Milk Shake NUTELLA® 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake NUTELLA® 400 ml	Milk Shake 400ml	22.00	S
+Milk Shake NUTELLA® 500 ml	Milk Shake 500ml	25.00	S
+Milk Shake Pink Lemonade 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Pink Lemonade 400 ml	Milk Shake 400ml	0.00	N
+Milk Shake Pink Lemonade 500 ml	Milk Shake 500ml	0.00	N
+Milk Shake Pistache 300 ml	Milk Shake 300ml	26.00	S
+Milk Shake Pistache 400 ml	Milk Shake 400ml	0.00	N
+Milk Shake Pistache 500 ml	Milk Shake 500ml	0.00	N
+Milk Shake Proteico de Chocolate 300 ml	Milk Shake 300ml	28.00	S
+Milk Shake Proteico de Chocolate 400 ml	Milk Shake 400ml	33.00	S
+Milk Shake Proteico de Chocolate 500 ml	Milk Shake 500ml	36.00	S
+Milk Shake Proteico de Leite em Pó 300 ml	Milk Shake 300ml	31.00	S
+Milk Shake Proteico de Leite em Pó 400 ml	Milk Shake 400ml	37.00	S
+Milk Shake Proteico de Leite em Pó 500 ml	Milk Shake 500ml	42.00	S
+Milk Shake Proteico de Maracujá 300 ml	Milk Shake 300ml	31.00	S
+Milk Shake Proteico de Maracujá 400 ml	Milk Shake 400ml	37.00	S
+Milk Shake Proteico de Maracujá 500 ml	Milk Shake 500ml	42.00	S
+Milk Shake Proteico de Morango 300 ml	Milk Shake 300ml	31.00	S
+Milk Shake Proteico de Morango 400 ml	Milk Shake 400ml	37.00	S
+Milk Shake Proteico de Morango 500 ml	Milk Shake 500ml	42.00	S
+Milk Shake Proteico Duo Chocolate 300 ml	Milk Shake 300ml	31.00	S
+Milk Shake Proteico Duo Chocolate 400 ml	Milk Shake 400ml	37.00	S
+Milk Shake Proteico Duo Chocolate 500 ml	Milk Shake 500ml	42.00	S
+Milk Shake Puro Leite 300ml	Milk Shake 300ml	19.00	S
+Milk Shake Puro Leite 400 ml	Milk Shake 400ml	23.00	S
+Milk Shake Puro Leite 500 ml	Milk Shake 500ml	28.00	S
+Milk Shake Tapioca Feito com Moça 300 ml	Milk Shake 300ml	0.00	N
+Milk Shake Tapioca Feito com Moça 400 ml	Milk Shake 400ml	0.00	N
+Milk Shake Tapioca Feito com Moça 500 ml	Milk Shake 500ml	0.00	N
+Milk Shake Trufado 300 ml	Milk Shake 300ml	19.00	S
+Milk Shake Trufado 300 ml - Promo Tra	Milk Shake 300ml	0.00	N
+Milk Shake Trufado 400 ml	Milk Shake 400ml	21.00	S
+Milk Shake Trufado 500 ml	Milk Shake 500ml	24.00	S
+Milk Shake Uva 300 ml	Milk Shake 300ml	0.00	N
+Milk Shake Uva 400 ml	Milk Shake 400ml	0.00	N
+Milk Shake Uva 500 ml	Milk Shake 500ml	0.00	N
+Mix Fondue 200 ml (2026)	Inverno	30.00	S
+Mix Fondue 300 ml (2026)	Inverno	40.00	S
+Mix Fruit Frutas Vermelhas	Mix Fruit	16.00	S
+Mix Fruit Maracuja	Mix Fruit	16.00	S
+Mix Fruit Morango	Mix Fruit	16.00	S
+Ovomaltine® Mix 200 ml	Mini Shake Mix	20.50	S
+Ovomaltine® Mix 300 ml	Shake Mix	25.00	S
+Para Viagem	EMBALAGEM	0.00	N
+Petit Gateau Baunilha	Petit Gateau	29.00	S
+Petit Gateau Baunilha Delivery	Petit Gateau	0.00	N
+Petit Gateau Chiquinho - 1 Unidade	Petit Gateau	13.00	S
+Petit Gateau Chiquinho - Caixa com 4 unidades	Petit Gateau	0.00	N
+Petit Gateau Chocolate	Petit Gateau	29.00	S
+Petit Gateau Chocolate Delivery	Petit Gateau	0.00	N
+Petit Gateau Misto	Petit Gateau	29.00	S
+Petit Gateau Misto Delivery	Petit Gateau	0.00	N
+Refri Coca Cola 200 ml	Refrigerante	0.00	N
+Refri Coca Cola 250 ml	Cafeteria	0.00	N
+Refri Coca Cola 500 ml	Cafeteria	0.00	N
+Refri Coca Cola 600 ml	Cafeteria	0.00	N
+Refri Coca Cola Ks 290 ml	Cafeteria	0.00	N
+Refri Coca Cola Lata 220 ml	Refrigerante	0.00	N
+Refri Coca Cola Lata 310 ml	Refrigerante	0.00	N
+Refri Coca Cola Lata 350 ml	Refrigerante	0.00	N
+Refri Coca Cola Stevia Lata 350 ml	Cafeteria	0.00	N
+Refri Coca Cola Zero 200 ml	Refrigerante	0.00	N
+Refri Coca Cola Zero Lata 220 ml	Refrigerante	0.00	N
+Refri Coca Cola Zero Lata 310 ml	Refrigerante	0.00	N
+Refri Coca Cola Zero Lata 350Ml	Refrigerante	0.00	N
+Refri Dydyo Cola 400 ml	Refrigerante	0.00	N
+Refri Dydyo Soda 400 ml	Refrigerante	0.00	N
+Refri Fanta Guaraná Lata 220 ml	Refrigerante	0.00	N
+Refri Fanta Guaraná Lata 310 ml	Refrigerante	0.00	N
+Refri Fanta Guaraná Lata 350 ml	Cafeteria	0.00	N
+Refri Fanta Laranja Lata 220 ml	Refrigerante	0.00	N
+Refri Fanta Laranja Lata 310 ml	Refrigerante	0.00	N
+Refri Fanta Laranja Lata 350 ml	Refrigerante	0.00	N
+Refri Fanta Uva Lata 310 ml	Refrigerante	0.00	N
+Refri Fanta Uva Lata 350 ml	Cafeteria	0.00	N
+Refri Guaraná Antarctica 200 ml	Refrigerante	0.00	N
+Refri Guaraná Antarctica Lata 269ml	Cafeteria	0.00	N
+Refri Guaraná Antarctica Lata 350 ml	Cafeteria	0.00	N
+Refri Guaraná Antarctica Zero Lata 350 ml	Cafeteria	0.00	N
+Refri Guarana Fruki 350 ml	Refrigerante	0.00	N
+Refri Guarana Fruki 600 ml	Refrigerante	0.00	N
+Refri Guarana Kuat Lata 310 ml	Refrigerante	0.00	N
+Refri Guarana Kuat Lata 350 ml	Refrigerante	0.00	N
+Refri H2O Limão 400 ml	Refrigerante	0.00	N
+Refri H2OH 500 ml	Cafeteria	0.00	N
+Refri H2OH Limoneto 500 ml	Refrigerante	0.00	N
+Refri Limão Fruki 350 ml	Refrigerante	0.00	N
+Refri Pepsi 350 ml	Refrigerante	0.00	N
+Refri Schweppes Citrus Lata 310 ml	Refrigerante	0.00	N
+Refri Schweppes Citrus Lata 350 ml	Cafeteria	0.00	N
+Refri Schweppes Lata 350 ml	Cafeteria	0.00	N
+Refri Schweppes Tônica Lata 350 ml	Cafeteria	0.00	N
+Refri Sprite 220 ml	Refrigerante	0.00	N
+Refri Sprite Lata 350 ml	Cafeteria	0.00	N
+Saco de Papel Produto Final	EMBALAGEM	0.00	N
+Shake Mix KitKat® 200 ml	Mini Shake Mix	22.00	S
+Shake Mix KitKat® 300 ml	Shake Mix	29.00	S
+Shake Mix® Abóbora com Coco 200 ml	Mini Shake Mix	0.00	N
+Shake Mix® Abóbora com Coco 300 ml	Shake Mix	0.00	N
+Shake Mix® Açaí com Creme Crocante 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Açaí com Creme Crocante 300 ml	Shake Mix	25.00	S
+Shake Mix® Açaí com NUTELLA® 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Açaí com NUTELLA® 300 ml	Shake Mix	25.00	S
+Shake Mix® Amarena & Calda Trufada 200 ml	Mini Shake Mix	25.00	S
+Shake Mix® Amarena & Calda Trufada 300 ml	Shake Mix	32.00	S
+Shake Mix® Banoffee 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Banoffee 300 ml	Shake Mix	25.00	S
+Shake Mix® Beijinho c/ Coco da Malásia 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Beijinho c/ Coco da Malásia 300 ml	Shake Mix	28.00	S
+Shake Mix® Chocomenta com Negresco®   200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Chocomenta com Negresco®  300 ml	Shake Mix	25.00	S
+Shake Mix® Chocotino com NUTELLA® 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Chocotino com NUTELLA® 300 ml	Shake Mix	25.00	S
+Shake Mix® Doce de Leite com Negresco®  200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Doce de Leite com Negresco®  300 ml	Shake Mix	25.00	S
+Shake Mix® Farinha Láctea®  e Banana 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Farinha Láctea®  e Banana 300 ml	Shake Mix	25.00	S
+Shake Mix® Maracujá Trufado 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Maracujá Trufado 300 ml	Shake Mix	25.00	S
+Shake Mix® Milho Verde 200 ml	Mini Shake Mix	0.00	N
+Shake Mix® Milho Verde 300 ml	Shake Mix	0.00	N
+Shake Mix® Morango com Fini® 200 ml	Shake Mix	20.50	S
+Shake Mix® Morango com Fini® 300 ml	Shake Mix	23.00	S
+Shake Mix® Morango com Ninho 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Morango com Ninho 300 ml	Shake Mix	25.00	S
+Shake Mix® Morango Supremo 200 ml	Mini Shake Mix	23.00	S
+Shake Mix® Morango Supremo 300 ml	Shake Mix	0.00	N
+Shake Mix® Ninho com NUTELLA® 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Ninho com NUTELLA® 300 ml	Shake Mix	25.00	S
+Shake Mix® Ninho Trufado 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Ninho Trufado 300 ml	Shake Mix	25.00	S
+Shake Mix® Nutella® com Fini® 200 ml	Shake Mix	20.50	S
+Shake Mix® Nutella® com Fini® 300 ml	Shake Mix	25.00	S
+Shake Mix® Ouro Branco® 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Ouro Branco® 300 ml	Shake Mix	25.00	S
+Shake Mix® Pistache 200 ml	Mini Shake Mix	22.00	S
+Shake Mix® Pistache 300 ml	Shake Mix	0.00	N
+Shake Mix® Proteico de Banoffee 200 ml	Mini Shake Mix	28.00	S
+Shake Mix® Proteico de Banoffee 300 ml	Shake Mix	33.00	S
+Shake Mix® Proteico de Farinha Láctea® com Banana 200 ml	Mini Shake Mix	28.00	S
+Shake Mix® Proteico de Farinha Láctea® com Banana 300 ml	Shake Mix	33.00	S
+Shake Mix® Puro Leite 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Puro Leite 300 ml	Shake Mix	25.00	S
+Shake Mix® Suflair® Trufado 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Suflair® Trufado 300 ml	Shake Mix	25.00	S
+Shake Mix® Tapioca com Coco 200 ml	Mini Shake Mix	0.00	N
+Shake Mix® Tapioca com Coco 300 ml	Shake Mix	0.00	N
+Shake Mix® Torta de Limão 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Torta de Limão 300 ml	Shake Mix	25.00	S
+Shake Mix® Trufado de NUTELLA® 200 ml	Mini Shake Mix	20.50	S
+Shake Mix® Trufado de NUTELLA® 300 ml	Shake Mix	25.00	S
+Smoothie Proteico de Açaí  300 ml	Outros Produtos	35.00	S
+Smoothie Proteico de Açaí 400 ml	Outros Produtos	41.00	S
+Smoothie Proteico de Açaí 500 ml	Outros Produtos	46.00	S
+Smoothie Proteico de Açaí com Banana 300 ml	Outros Produtos	35.00	S
+Smoothie Proteico de Açaí com Banana 400 ml	Outros Produtos	41.00	S
+Smoothie Proteico de Açaí com Banana 500 ml	Outros Produtos	46.00	S
+Sorvete no Copo Baunilha 110 ml	Sorvete no Copo	0.00	N
+Sorvete no Copo Baunilha 300 ml	Sorvete no Copo	0.00	N
+Sorvete no Copo Baunilha 400 ml	Sorvete no Copo	0.00	N
+Sorvete no Copo Baunilha 500 ml	Sorvete no Copo	0.00	N
+Sorvete no Copo Chocolate 110 ml	Sorvete no Copo	0.00	N
+Sorvete no Copo Chocolate 300 ml	Sorvete no Copo	0.00	N
+Sorvete no Copo Chocolate 400 ml	Sorvete no Copo	0.00	N
+Sorvete no Copo Chocolate 500 ml	Sorvete no Copo	0.00	N
+Sorvete no Copo Misto 110 ml	Sorvete no Copo	0.00	N
+Sorvete no Copo Misto 300 ml	Sorvete no Copo	0.00	N
+Sorvete no Copo Misto 400 ml	Sorvete no Copo	0.00	N
+Sorvete no Copo Misto 500 ml	Sorvete no Copo	0.00	N
+Sprite Lemon Fresh 510 ml	Cafeteria	0.00	N
+Suco de Goiaba Del Valle 290 ml	Sucos	0.00	N
+Suco De Goiaba Del Valle 335 ml	Sucos	0.00	N
+Suco De Laranja Del Valle 290 ml	Sucos	0.00	N
+Suco De Laranja Del Valle 335 ml	Sucos	0.00	N
+Suco De Limão Del Valle 290 ml	Sucos	0.00	N
+Suco De Limão Del Valle 335 ml	Sucos	0.00	N
+Suco de Manga Del Valle 290 ml	Sucos	0.00	N
+Suco de Manga Del Valle 335 ml	Sucos	0.00	N
+Suco de Maracujá Del Valle 290 ml	Sucos	0.00	N
+Suco De Maracujá Del Valle 335 ml	Sucos	0.00	N
+Suco de Morango Del Valle 290 ml	Sucos	0.00	N
+Suco de Pêssego Del Valle 290ml	Sucos	0.00	N
+Suco De Pessego Del Valle 335 ml	Sucos	0.00	N
+Suco de Uva Del Valle 290 ml	Sucos	0.00	N
+Suco De Uva Del Valle 335 ml	Sucos	0.00	N
+Suco de Uva Light Del Valle 290 ml	Sucos	0.00	N
+Suco Del Valle Fruit 450 ml	Cafeteria	0.00	N
+Suco Del Valle Lata 300 ml	Cafeteria	0.00	N
+Suco Fruki Com/Tem Laranja 300 ml	Sucos	0.00	N
+Suco Fruki Com/Tem Uva 300 ml	Sucos	0.00	N
+Suco Fruki Com/Tem Verde 300 ml	Sucos	0.00	N
+Suco Frukito Frutas Cítricas 500 ml	Sucos	0.00	N
+Suco Frukito Frutas Vermelhas 500 ml	Sucos	0.00	N
+Sundae Baunilha Cobertura Caramelo	Sundae	12.50	S
+Sundae Baunilha Cobertura Caramelo - Promo	Sundae	0.00	N
+Sundae Baunilha Cobertura Caramelo Complemento Brigadeiro	Sundae	15.00	S
+Sundae Baunilha Cobertura Caramelo Complemento Disqueti	Sundae	15.00	S
+Sundae Baunilha Cobertura Chocolate	Sundae	12.50	S
+Sundae Baunilha Cobertura Chocolate - Promo	Sundae	0.00	N
+Sundae Baunilha Cobertura Chocolate Complemento Brigadeiro	Sundae	15.00	S
+Sundae Baunilha Cobertura Chocolate Complemento Disqueti	Sundae	15.00	S
+Sundae Baunilha Cobertura Morango	Sundae	12.50	S
+Sundae Baunilha Cobertura Morango - Promo	Sundae	0.00	N
+Sundae Baunilha Cobertura Morango Complemento Brigadeiro	Sundae	15.00	S
+Sundae Baunilha Cobertura Morango Complemento Disqueti	Sundae	15.00	S
+Sundae Chocolate Cobertura Caramelo	Sundae	12.50	S
+Sundae Chocolate Cobertura Caramelo - Promo	Sundae	0.00	N
+Sundae Chocolate Cobertura Caramelo Complemento Brigadeiro	Sundae	15.00	S
+Sundae Chocolate Cobertura Caramelo Complemento Disqueti	Sundae	15.00	S
+Sundae Chocolate Cobertura Chocolate	Sundae	12.50	S
+Sundae Chocolate Cobertura Chocolate - Promo	Sundae	0.00	N
+Sundae Chocolate Cobertura Chocolate Complemento Brigadeiro	Sundae	15.00	S
+Sundae Chocolate Cobertura Chocolate Complemento Disqueti	Sundae	15.00	S
+Sundae Chocolate Cobertura Morango	Sundae	12.50	S
+Sundae Chocolate Cobertura Morango - Promo	Sundae	0.00	N
+Sundae Chocolate Cobertura Morango Complemento Brigadeiro	Sundae	15.00	S
+Sundae Chocolate Cobertura Morango Complemento Disqueti	Sundae	15.00	S
+Sundae Misto Cobertura Caramelo	Sundae	12.50	S
+Sundae Misto Cobertura Caramelo - Promo	Sundae	0.00	N
+Sundae Misto Cobertura Caramelo Complemento Brigadeiro	Sundae	15.00	S
+Sundae Misto Cobertura Caramelo Complemento Disqueti	Sundae	15.00	S
+Sundae Misto Cobertura Chocolate	Sundae	12.50	S
+Sundae Misto Cobertura Chocolate - Promo	Sundae	0.00	N
+Sundae Misto Cobertura Chocolate Complemento Brigadeiro	Sundae	15.00	S
+Sundae Misto Cobertura Chocolate Complemento Disqueti	Sundae	15.00	S
+Sundae Misto Cobertura Morango	Sundae	12.50	S
+Sundae Misto Cobertura Morango - Promo	Sundae	0.00	N
+Sundae Misto Cobertura Morango Complemento Brigadeiro	Sundae	15.00	S
+Sundae Misto Cobertura Morango Complemento Disqueti	Sundae	15.00	S
+Sundae Ovomaltine Baunilha	Sundae	12.50	S
+Sundae Ovomaltine Baunilha Cobertura Caramelo	Sundae	12.50	S
+Sundae Ovomaltine Baunilha Cobertura Chocolate	Sundae	12.50	S
+Sundae Ovomaltine Baunilha Cobertura Morango	Sundae	12.50	S
+Sundae Ovomaltine Chocolate Cobertura Caramelo	Sundae	12.50	S
+Sundae Ovomaltine Chocolate Cobertura Chocolate	Sundae	12.50	S
+Sundae Ovomaltine Chocolate Cobertura Morango	Sundae	12.50	S
+Sundae Ovomaltine Misto Cobertura Caramelo	Sundae	12.50	S
+Sundae Ovomaltine Misto Cobertura Chocolate	Sundae	12.50	S
+Sundae Ovomaltine Misto Cobertura Morango	Sundae	12.50	S
+Suporte para Copos Produto Final	EMBALAGEM	0.00	N
+Suporte para Potes Produto Final	EMBALAGEM	0.00	N
+Suporte para Viagem Duplo Produto Final	EMBALAGEM	0.00	N
+Suporte para Viagem Único Produto Final	EMBALAGEM	0.00	N
+Top Fondue - Fruta Banana - Baunilha - 2026	Inverno	40.00	S
+Top Fondue - Fruta Banana - Chocolate - 2026	Inverno	40.00	S
+Top Fondue - Fruta Banana - Misto - 2026	Inverno	40.00	S
+Top Fondue - Fruta Morango - Baunilha - 2026	Inverno	45.00	S
+Top Fondue - Fruta Morango - Chocolate - 2026	Inverno	45.00	S
+Top Fondue - Fruta Morango - Misto - 2026	Inverno	45.00	S
+Top Fondue - Fruta Uva - Baunilha - 2026	Inverno	40.00	S
+Top Fondue - Fruta Uva - Chocolate - 2026	Inverno	40.00	S
+Top Fondue - Fruta Uva - Misto - 2026	Inverno	40.00	S
+Top Fruit Frutas Vermelhas	Cream Tasty	20.00	S
+Top Fruit Maracuja	Cream Tasty	20.00	S
+Top Fruit Morango	Cream Tasty	20.00	S
+Top Mix com KitKat® Baunilha	Top Mix	25.00	S
+Top Mix com KitKat® Chocolate	Top Mix	25.00	S
+Top Mix com KitKat® Misto	Top Mix	25.00	S
+Top Mix com Suflair® Baunilha	Top Mix	25.00	S
+Top Mix com Suflair® Chocolate	Top Mix	25.00	S
+Top Mix com Suflair® Duo Baunilha	Top Mix	25.00	S
+Top Mix com Suflair® Duo Chocolate	Top Mix	25.00	S
+Top Mix com Suflair® Duo Misto	Top Mix	25.00	S
+Top Mix com Suflair® Misto	Top Mix	25.00	S
+Top Mix Monte o Seu Baunilha	Top Mix	24.97	S
+Top Mix Monte o Seu Chocolate	Top Mix	24.97	S
+Top Mix Monte o Seu Misto	Top Mix	24.97	S
+Cobertura Farinha Láctea®  (Top Mix Monte o Seu)	Adicional	0.01	S
+Cobertura Ganache (Top Mix Monte o Seu)	Adicional	0.01	S
+Cobertura Granola (Top Mix Monte o Seu)	Adicional	0.01	S
+Cobertura Leite Moça® (Top Mix Monte o Seu)	Adicional	0.01	S
+Cobertura Leite Ninho® (Top Mix Monte o Seu)	Adicional	0.01	S
+Cobertura Nutella® (Top Mix Monte o Seu)	Adicional	0.01	S
+Cobertura Ovomaltine (Top Mix Monte o Seu)	Adicional	0.01	S
+Fruta Morango (Top Mix Monte o Seu)	Adicional	0.01	S
+Fruta Uva (Top Mix Monte o Seu)	Adicional	0.01	S
+Ad 4 Cascões (Delivery)	Adicional	0.00	N
+Ad Aç Amendoim Triturado	Adicional	2.50	S
+Ad Aç Banana	Adicional	2.50	S
+Ad Aç Biscoito Negresco®	Adicional	5.00	S
+Ad Aç Bombom Ouro Branco®	Adicional	7.50	S
+Ad Aç Canudinho Biju Wafer	Adicional	1.50	S
+Ad Aç Chantilly	Adicional	3.50	S
+Ad Aç Chocolate granulado	Adicional	3.00	S
+Ad Aç Creme Crocante Ovomaltine®	Adicional	7.50	S
+Ad Aç Disqueti	Adicional	9.00	S
+Ad Aç Doce de Leite	Adicional	3.00	S
+Ad Aç Farinha Láctea®	Adicional	3.50	S
+Ad Aç Farofa Especial	Adicional	3.50	S
+Ad Aç Ganache Chiquinho	Adicional	7.50	S
+Ad Aç Granola	Adicional	3.00	S
+Ad Aç Leite Condensado	Adicional	0.00	N
+Ad Aç Leite Ninho®	Adicional	4.50	S
+Ad Aç Marshmallow Torção Fini®	Adicional	6.00	S
+Ad Aç Morango	Adicional	7.00	S
+Ad Aç NUTELLA®	Adicional	10.00	S
+Ad Aç Ovomaltine	Adicional	3.50	S
+Ad Aç Polpa Frutas Vermelhas	Adicional	6.00	S
+Ad Aç Polpa Maracujá	Adicional	6.00	S
+Ad Aç Polpa Morango	Adicional	6.00	S
+Ad Aç Sorvete Baunilha	Adicional	4.50	S
+Ad Aç Sorvete Chocolate	Adicional	4.50	S
+Ad Aç Sorvete Misto	Adicional	4.50	S
+Ad Aç Trufada Chiquinho	Adicional	5.00	S
+Ad Açaí	Adicional	4.00	S
+Ad Amarena	Adicional	0.00	N
+Ad Amendoim Triturado	Adicional	1.50	S
+Ad Banana	Adicional	2.00	S
+Ad Banana (Canecake 2026)	Adicional	0.00	N
+Ad BCone Chocolate Trufado	Bubble Waffle	0.00	N
+Ad BCone Creme Crocante Ovomaltine®	Bubble Waffle	0.00	N
+Ad BCone Doce de Leite	Bubble Waffle	0.00	N
+Ad BCone Kitkat®	Bubble Waffle	0.00	N
+Ad BCone Leite Condensado	Bubble Waffle	0.00	N
+Ad BCone Nutella®	Bubble Waffle	0.00	N
+Ad BCone Suflair®	Bubble Waffle	0.00	N
+Ad BConeG Amendoim Granulado	Bubble Waffle	0.00	N
+Ad BConeG Banana	Bubble Waffle	0.00	N
+Ad BConeG Bijú	Bubble Waffle	0.00	N
+Ad BConeG Disqueti Mini	Bubble Waffle	0.00	N
+Ad BConeG Farofa Especial	Bubble Waffle	0.00	N
+Ad BConeG Ganache Chiquinho	Bubble Waffle	0.00	N
+Ad BConeG Granulado Chocolate	Bubble Waffle	0.00	N
+Ad BConeG Marshmallow Fini®	Bubble Waffle	0.00	N
+Ad BConeG Morango	Bubble Waffle	0.00	N
+Ad BConeG Ovomaltine em Flocos	Bubble Waffle	0.00	N
+Ad BConeG Polpa de Frutas Vermelhas	Bubble Waffle	0.00	N
+Ad BConeG Polpa de Morango	Bubble Waffle	0.00	N
+Ad BConeP Amendoim Granulado	Bubble Waffle	0.00	N
+Ad BConeP Banana	Bubble Waffle	0.00	N
+Ad BConeP Biju	Bubble Waffle	0.00	N
+Ad BConeP Disqueti Mini	Bubble Waffle	0.00	N
+Ad BConeP Farofa Especial	Bubble Waffle	0.00	N
+Ad BConeP Ganache Chiquinho	Bubble Waffle	0.00	N
+Ad BConeP Granulado Chocolate	Bubble Waffle	0.00	N
+Ad BConeP Marshmallow Fini®	Bubble Waffle	0.00	N
+Ad BConeP Morango	Bubble Waffle	0.00	N
+Ad BConeP Ovomaltine em Flocos	Bubble Waffle	0.00	N
+Ad BConeP Polpa de Morango	Bubble Waffle	0.00	N
+Ad BConeP Polpa Frutas Vermelhas	Bubble Waffle	0.00	N
+Ad Biscoito Maisena	Adicional	0.00	N
+Ad Biscoito Negresco®	Adicional	0.00	N
+Ad Bolo Petit Gateau	Adicional	0.00	N
+Ad Bombom Ouro Branco Mini®	Adicional	0.00	N
+Ad Bombom Ouro Branco®	Adicional	0.00	N
+Ad Café	Adicional	0.00	N
+Ad Calda Fondue (Canecake 2026)	Adicional	0.00	N
+Ad Calda Quente Preta	Adicional	2.00	S
+Ad Calda Trufada	Adicional	2.00	S
+Ad Canudinho Biju Wafer	Adicional	0.00	N
+Ad Cappuccino	Adicional	0.00	N
+Ad Cascão Baunilha	Adicional	1.00	S
+Ad Casquinha Baunilha	Adicional	1.00	S
+Ad Chantilly	Adicional	3.50	S
+Ad Chocolate em Pó	Adicional	0.00	N
+Ad Chocolate Granulado	Adicional	1.50	S
+Ad Chocolate Trufado (Canecake 2026)	Adicional	0.00	N
+Ad Cobertura Caramelo	Adicional	1.00	S
+Ad Cobertura Chocolate	Adicional	1.00	S
+Ad Cobertura Morango	Adicional	1.00	S
+Ad Creme Coco Malásia	Adicional	0.00	N
+Ad Creme Coco Malásia (Canecake 2026)	Adicional	0.00	N
+Ad Creme Crocante Ovomaltine®	Adicional	0.00	N
+Ad Creme Crocante Ovomaltine® (Canecake 2026)	Adicional	0.00	N
+Ad Creme de Amarena (Canecake 2026)	Adicional	0.00	N
+Ad Creme de Leite em Pó (Canecake 2026)	Adicional	0.00	N
+Ad Creme Pistache (Canecake 2026)	Adicional	0.00	N
+Ad Creme Puro Leite	Adicional	0.00	N
+Ad Creme Tapioca	Adicional	0.00	N
+Ad Disco Casquinha	Adicional	0.00	N
+Ad Disqueti	Adicional	0.00	N
+Ad Disqueti Mini (Canecake 2026)	Adicional	0.00	N
+Ad Doce de Abóbora com Coco	Adicional	0.00	N
+Ad Doce de Leite	Adicional	2.00	S
+Ad Doce de Leite (Canecake 2026)	Adicional	0.00	N
+Ad Farinha Láctea®	Adicional	2.00	S
+Ad Farinha Láctea®  (Top Mix Monte o Seu)	Adicional	2.00	S
+Ad Farofa Especial	Adicional	2.00	S
+Ad Ganache Chiquinho	Adicional	2.00	S
+Ad Ganache Chiquinho (Top Mix Monte o Seu)	Adicional	0.00	N
+Ad Ganache Fondue	Adicional	0.00	N
+Ad Granola	Adicional	2.00	S
+Ad Granola (10g)	Adicional	2.00	S
+Ad KitKat®	Adicional	0.00	N
+Ad KitKat® (Cascão)	Adicional	0.00	N
+Ad Leite Condensado	Adicional	0.00	N
+Ad Leite Condensado (Top Mix Monte o Seu)	Adicional	0.00	N
+Ad Leite Condensado Moça (Canecake 2026)	Adicional	5.00	S
+Ad Leite Ninho®	Adicional	3.50	S
+Ad Leite Ninho® (Top Mix Monte o Seu)	Adicional	0.00	N
+Ad Marshmallow Cremoso - Borda (Canecake 2026)	Adicional	0.00	N
+Ad Marshmallow Cremoso - Recheio (Canecake 2026)	Adicional	0.00	N
+Ad Marshmallow Torção Fini®	Adicional	0.00	N
+Ad Menta	Adicional	1.50	S
+Ad Mescla de Frutas Vermelhas	Adicional	0.00	N
+Ad Mescla de Maracuja	Adicional	0.00	N
+Ad Mescla de Morango	Adicional	0.00	N
+Ad Mescla Uva	Adicional	0.00	N
+Ad Milho Verde	Adicional	0.00	N
+Ad Morango	Adicional	0.00	N
+Ad Morango (Canecake 2026)	Adicional	0.00	N
+Ad Nutella®	Adicional	6.50	S
+Ad Nutella® (Canecake 2026)	Adicional	0.00	N
+Ad Nutella® (Top Mix Monte o Seu)	Adicional	0.00	N
+Ad Ovomaltine	Adicional	2.00	S
+Ad Ovomaltine (Top Mix Monte o Seu)	Adicional	1.50	S
+Ad Pacote com 9 ou 10 Cascões (Delivery)	Adicional	0.00	N
+Ad Pacote com 9 ou 10 Casquinhas (Delivery)	Adicional	0.00	N
+Ad Pasta Kitkat®	Adicional	0.00	N
+Ad Petit Gateau Chiquinho - 1 Unidade	Adicional	8.00	S
+Ad Petit Gateau Chiquinho - Caixa com 4 unidades	Adicional	0.00	N
+Ad Pistache Chiquinho	Adicional	0.00	N
+Ad Polpa de Frutas Vermelhas	Adicional	0.00	N
+Ad Polpa de Maracuja	Adicional	0.00	N
+Ad Polpa de Morango	Adicional	0.00	N
+Ad Polpa Natural Maracujá Fruta	Adicional	0.00	N
+Ad Sorvete Baunilha - Fondue	Adicional	0.00	N
+Ad Sorvete Chocolate - Fondue	Adicional	0.00	N
+Ad Sorvete Misto - Fondue	Adicional	0.00	N
+Ad Sorvete no Copo 220ml - Baunilha	Adicional	0.00	N
+Ad Sorvete no Copo 220ml - Chocolate	Adicional	0.00	N
+Ad Sorvete no Copo 220ml - Misto	Adicional	0.00	N
+Ad Stracciatella Branca	Adicional	2.00	S
+Ad Suco de Limão	Adicional	1.50	S
+Ad Suflair®	Adicional	0.00	N
+Ad Suflair® (5g)	Adicional	0.00	N
+Ad Suflair® Duo	Adicional	0.00	N
+Ad Suspiro (Canecake 2026)	Adicional	0.00	N
+Ad Uva	Adicional	0.00	N
+Ad Whey Protein	Adicional	10.00	S
+Colher Biodegradável Grande (Delivery)	Adicional	0.00	N
+Fruta Banana (Top Mix Monte o Seu)	Adicional	0.01	S
