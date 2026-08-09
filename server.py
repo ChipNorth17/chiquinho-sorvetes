@@ -169,6 +169,13 @@ class Handler(BaseHTTPRequestHandler):
         self.send_response(204); self._cors(); self.end_headers()
 
     def do_GET(self):
+        if self.path == "/menu_index.json":
+            data = (Path(__file__).parent / "menu_index.json").read_bytes()
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json")
+            self._cors(); self.end_headers()
+            self.wfile.write(data)
+            return
         if self.path.startswith("/assets/"):
             asset = (Path(__file__).parent / self.path.lstrip("/")).resolve()
             root = (Path(__file__).parent / "assets").resolve()
