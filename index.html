@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Chiquinho Sorvetes Teresópolis — Cardápio, localização, atendimento e iFood. Bem-vindo!">
 <meta name="theme-color" content="#0b5fa5">
+<meta property="og:title" content="Chiquinho Sorvetes Teresópolis 🍦">
+<meta property="og:description" content="Endereço, iFood, chat e cardápio — tudo em um link só.">
+<meta property="og:type" content="website">
 <title>Chiquinho Sorvetes Teresópolis — Cardápio, Mapa e Atendimento</title>
 <link rel="icon" type="image/png" href="/assets/favicon.png">
 <link rel="apple-touch-icon" href="/assets/icon-192.png">
@@ -90,6 +93,14 @@
 
   /* ===== Tela inicial (estilo Linktree) ===== */
   .lt-card { padding: 18px 16px; margin-bottom: 14px; text-align: center; }
+  .lt-avatar {
+    width: 92px; height: 92px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 6px 18px rgba(11, 95, 165, .28);
+    margin-bottom: 12px;
+  }
   .lt-card .t1 { font-size: 19px; font-weight: 800; color: var(--blue-dark); }
   .lt-card .t2 { font-size: 13.5px; color: var(--muted); margin-top: 4px; }
 
@@ -333,6 +344,7 @@
 <!-- ===== TELA INICIAL (estilo Linktree) ===== -->
 <main id="view-home">
   <div class="card lt-card">
+    <img class="lt-avatar" src="/assets/logo-vertical.png" alt="Chiquinho Sorvetes" width="92" height="92">
     <div class="t1">Bem-vindo(a)! 🍦</div>
     <div class="t2">Escolha uma opção para começar</div>
   </div>
@@ -340,7 +352,7 @@
   <div class="lt-links">
     <a class="lt-btn bt-mapa" id="btnMapa" href="https://www.google.com/maps/search/?api=1&query=Chiquinho+Sorvetes+Teres%C3%B3polis" target="_blank" rel="noopener" aria-label="Ver localização da loja no mapa">
       <span class="lt-ico">📍</span>
-      <span class="lt-txt"><b>Mapa</b><small>Veja onde a loja fica e trace a rota</small></span>
+      <span class="lt-txt"><b>Endereço</b><small>Veja onde a loja fica e trace a rota</small></span>
       <span class="lt-arrow">›</span>
     </a>
 
