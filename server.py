@@ -10,6 +10,7 @@ Sem chave → fallback Ollama local (qwen3:4b).
 import json
 import os
 import re
+import unicodedata
 import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -18,7 +19,8 @@ OPENCODE_URL = "https://opencode.ai/zen/v1/chat/completions"
 OPENCODE_MODEL = "deepseek-v4-flash-free"
 OLLAMA_URL = "http://127.0.0.1:11434/api/chat"
 OLLAMA_MODEL = "qwen3:4b"
-PORT = 8788
+# Cloud Run injeta a variável PORT (padrão 8080); localmente usa 8788.
+PORT = int(os.environ.get("PORT", "8788"))
 
 INDEX = json.loads((Path(__file__).parent / "menu_index.json").read_text("utf-8"))
 
@@ -53,6 +55,57 @@ HOURS_RE = re.compile(
     r"(abre|abrem|aberto|aberta|fecha|fecham|fechado|hor[áa]rio|funciona|funcionam|at[eé] que horas|que horas|hora)",
     re.I,
 )
+
+ADDRESS_RE = re.compile(
+    r"(endere[çc]o|localiza[çãa]o|onde fica|onde voc[êe]s ficam|mapa|rua|avenida|av\.|bairro)",
+    re.I,
+)
+
+# Pedido genérico de cardápio (ex.: botão "Cardápio da loja" da página inicial).
+MENU_RE = re.compile(
+    r"(card[áa]pio|menu|quero ver|o que tem|o que voc[êe]s tem|quais sabores|lista de|pre[çc]os|op[çc][õo]es)",
+    re.I,
+)
+
+GROUP_NAMES = sorted({i["grupo"] for i in INDEX}, key=len, reverse=True)
+
+
+def _flat(s):
+    return unicodedata.normalize("NFD", s).encode("ascii", "ignore").decode()
+
+
+def has_group_name(text):
+    t = _flat(text.lower())
+    return any(_flat(g.lower()) in t for g in GROUP_NAMES)
+
+
+def build_menu_summary():
+    groups = {}
+    skip = {"Adicional", "EMBALAGEM"}
+    for i in INDEX:
+        if not i["disp"] or i["grupo"] in skip:
+            continue
+        groups.setdefault(i["grupo"], []).append(i["pdv"])
+    order = [g for g in HIGHLIGHT_GROUPS if g in groups]
+    order += [g for g in sorted(groups, key=lambda x: -len(groups[x])) if g not in order]
+    labels = {
+        "Milk Shake 300ml": "Milk Shake 300ml",
+        "Milk Shake 400ml": "Milk Shake 400ml",
+        "Milk Shake 500ml": "Milk Shake 500ml",
+        "Açai": "Açaí",
+        "Cascao": "Cascão",
+        "Agua Mineral": "Bebidas",
+    }
+    pretty = [labels.get(g, g) for g in order]
+    cheap = min((p for ps in groups.values() for p in ps))
+    return (
+        "Claro! 😋 Nosso cardápio tem: " + ", ".join(pretty) + ". "
+        f"Preços a partir de R$ {cheap:.2f}. "
+        "Me diz qual linha ou sabor te interessa que eu te passo os preços! 😊"
+    )
+
+
+MENU_SUMMARY = build_menu_summary()
 
 
 def build_highlights():
@@ -162,6 +215,27 @@ class Handler(BaseHTTPRequestHandler):
                 self._cors(); self.end_headers()
                 self.wfile.write(json.dumps({"reply": reply}).encode())
                 return
+
+            # Pergunta de localização → aponta para o botão Mapa (sem inventar endereço).
+            if ADDRESS_RE.search(last_user):
+                reply = ("Ficamos em Teresópolis (RJ)! 📍 Para ver nossa localização e "
+                         "traçar a rota, toque no botão \"Mapa\" da página inicial do "
+                         "site. Precisa de mais alguma coisa? 😊")
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json")
+                self._cors(); self.end_headers()
+                self.wfile.write(json.dumps({"reply": reply}).encode())
+                return
+
+            # Pedido genérico de cardápio (sem produto específico) → resumo determinístico.
+            if MENU_RE.search(last_user) and not has_group_name(last_user):
+                reply = MENU_SUMMARY + "\n\n" + HIGHLIGHTS
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json")
+                self._cors(); self.end_headers()
+                self.wfile.write(json.dumps({"reply": reply}).encode())
+                return
+
             scored = search_menu(last_user)
             hits = [it for it, _ in scored]
             menu_ctx = HIGHLIGHTS

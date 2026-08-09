@@ -1,0 +1,10 @@
+.git
+.env
+.gitignore
+memory
+*.md
+menu.txt
+menu.tsv
+__pycache__
+*.pyc
+.DS_Store
